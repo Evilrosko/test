@@ -14,9 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - shell: bash
-      run: |
-        ls
-        pwd
     - name: Build the Docker image
-      run: docker build ./dockerpro 
+      run: docker build . -t evilrosko/test:latest -t evilrosko/test:0.0.2
