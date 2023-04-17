@@ -19,4 +19,4 @@ jobs:
         ls
         pwd
     - name: Build the Docker image
-      run: docker build ./dockerpro/Dockerfile --tag my-image-name:$(date +%s) 
+      run: docker build ./dockerpro 
