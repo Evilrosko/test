@@ -16,6 +16,3 @@ Savo varda irasyti i faila name.txt ir pythonas turi skaityti varda is failo.
 Papildyti pythono scirpta kad parasytu hostmane antroje eiluteje My hostname is - <hostname>
 padaryti kad printintu sitas dvi eilutes kas 1s iki begalybes
 a,b,c taskams, kiekvienam padaryti po atskira versija ir nauja taga docker hub't, naudoti semantic versioning. Docker hub imagai turi tureti du tagus latest ir v*.*.*, suprantama kad latest image yra paskutini.
-
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
