@@ -22,4 +22,4 @@ Iš esmės būsit ir devai ir devopsai tuo paciu. Finale busit padare appsa kuri
   - [ ] 2. Docker compose failas skirtas parsitraukti naujausia esama versija is DockerHub.
 - [ ] 11. Pasidomek kas yra ```kind```. Susiinstaliuok ir isbandyk. 
 - [ ] 12. Susiinstaliuok ```Lens```.
-- [ ] 13. Parašyk paprašyk paprastą kubernečiu ````Deplyment`` ir ```Service``` 
+- [ ] 13. Parašyk paprašyk paprastą kubernečiu ```Deplyment``` ir ```Service``` 
