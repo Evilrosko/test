@@ -1,6 +1,15 @@
 import os
 import socket
 import time
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
 
 print("Mano vardas Karolis")
 starttime = time.time()
