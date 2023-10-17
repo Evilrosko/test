@@ -1,6 +1,8 @@
 import os
 import socket
 import time
+
+print("Mano vardas Karolis")
 starttime = time.time()
 while True:
         print(socket.gethostname())    
