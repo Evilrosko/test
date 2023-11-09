@@ -14,9 +14,9 @@ Iš esmės būsit ir devai ir devopsai tuo paciu. Finale busit padare appsa kuri
   - [x] 2. Papildyti pythono scirpta kad parasytu hostmane antroje eiluteje My hostname is - ``<hostname>``
   - [x] 3. Padaryti kad printintu sitas dvi eilutes pradzioje programos.
   - [x] 4. Papildymo taskams, kiekvienam padaryti po atskira versija ir nauja taga docker hub't, naudoti semantic versioning. Docker hub imagai turi tureti du tagus latest ir v*.*.*, suprantama kad latest image yra paskutini.
-- [ ] 7. suinstaliuok fastapi i docker image.
-- [ ] 7. Patikrinkt koks Docker image dydis, pabandyk ji sumazinti. Naudok **docker multistage** build.
-- [ ] 8. Parasyk github acionana kad automatiskai subuildintu imgafe ir uploadintu i dockerhuba.
+- [x] 7. suinstaliuok fastapi i docker image.
+- [x] 7. Patikrinkt koks Docker image dydis, pabandyk ji sumazinti. Naudok **docker multistage** build.
+- [ ] 8. Parasyk github acionana kad automatiskai subuildintu image ir uploadintu i dockerhuba.
 - [ ] 9. Jei jau uzkniso atsiminti kuria paskutine versija pritaikei laikas prideti versiju bumpinima. [https://github.com/python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
 - [ ] 10. Parasyk 2 docker compose failus:
   - [ ] 1. Docker compose failas kuris lokaliai subuildina container ir ji runina.
